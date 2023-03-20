@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testrunners.MenuManagementTest" time="0.222" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/petechopelas/eclipse-workspace/cucumbercourse/target/test-classes:/Users/petechopelas/eclipse-workspace/cucumbercourse/target/classes:/Users/petechopelas/.m2/repository/io/cucumber/cucumber-java/4.2.5/cucumber-java-4.2.5.jar:/Users/petechopelas/.m2/repository/io/cucumber/cucumber-core/4.2.5/cucumber-core-4.2.5.jar:/Users/petechopelas/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar:/Users/petechopelas/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/petechopelas/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/petechopelas/.m2/repository/io/cucumber/cucumber-expressions/6.2.0/cucumber-expressions-6.2.0.jar:/Users/petechopelas/.m2/repository/io/cucumber/datatable/1.1.12/datatable-1.1.12.jar:/Users/petechopelas/.m2/repository/io/cucumber/datatable-dependencies/1.1.12/datatable-dependencies-1.1.12.jar:/Users/petechopelas/.m2/repository/io/cucumber/cucumber-junit/4.2.5/cucumber-junit-4.2.5.jar:/Users/petechopelas/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/petechopelas/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/petechopelas/eclipse-workspace/cucumbercourse/target/surefire/surefirebooter-20230320150819162_3.jar /Users/petechopelas/eclipse-workspace/cucumbercourse/target/surefire 2023-03-20T15-08-18_636-jvmRun1 surefire-20230320150819162_1tmp surefire_0-20230320150819162_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/petechopelas/eclipse-workspace/cucumbercourse/target/test-classes:/Users/petechopelas/eclipse-workspace/cucumbercourse/target/classes:/Users/petechopelas/.m2/repository/io/cucumber/cucumber-java/4.2.5/cucumber-java-4.2.5.jar:/Users/petechopelas/.m2/repository/io/cucumber/cucumber-core/4.2.5/cucumber-core-4.2.5.jar:/Users/petechopelas/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar:/Users/petechopelas/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/petechopelas/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/petechopelas/.m2/repository/io/cucumber/cucumber-expressions/6.2.0/cucumber-expressions-6.2.0.jar:/Users/petechopelas/.m2/repository/io/cucumber/datatable/1.1.12/datatable-1.1.12.jar:/Users/petechopelas/.m2/repository/io/cucumber/datatable-dependencies/1.1.12/datatable-dependencies-1.1.12.jar:/Users/petechopelas/.m2/repository/io/cucumber/cucumber-junit/4.2.5/cucumber-junit-4.2.5.jar:/Users/petechopelas/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/petechopelas/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/petechopelas"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/petechopelas/eclipse-workspace/cucumbercourse"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/petechopelas/eclipse-workspace/cucumbercourse/target/surefire/surefirebooter-20230320150819162_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8"/>
+    <property name="user.name" value="petechopelas"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.2.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.2+8"/>
+    <property name="localRepository" value="/Users/petechopelas/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/f3/zpmgwd9j37qdrwp3xpyrd3h80000gp/T/"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="/Users/petechopelas/eclipse-workspace/cucumbercourse"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/petechopelas/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Add a menu item" classname="Menu Management" time="0.006">
+    <system-out><![CDATA[Step 1
+Step 2
+Step 3: true
+]]></system-out>
+  </testcase>
+</testsuite>
