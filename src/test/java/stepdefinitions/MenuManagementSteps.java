@@ -11,8 +11,9 @@ public class MenuManagementSteps {
 	RestaurantMenuItem NewMenuItem;
 	RestaurantMenu LocationMenu = new RestaurantMenu();
 
-	@Given("I have a menu item with name {string} and price {int}")
-	public void i_have_a_menu_item_with_name_and_price(String menuItemName,Integer price) {
+	@Given("I have a menu item with name \"([^\"]+)\" and price ([$]*)(\\d+)")
+	public void i_have_a_menu_item_with_name_and_price(String menuItemName, 
+			String currencyType, Integer price) {
 
 		NewMenuItem = new RestaurantMenuItem(menuItemName, menuItemName, price);
 		System.out.println("Step 1");
