@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.005496">
+    <testcase classname="Menu Management" name="Add a menu item" time="0.003462">
+        <system-out><![CDATA[Given I have a menu item with name "Chicken Sandwich" and price 15..........passed
+When I add that menu item...................................................passed
+Then Menu Item with name "Chicken Sandwich" should be added.................passed
+Given I have a menu item with name "Cucumber Sandwich" and price $20........passed
+When I add that menu item...................................................passed
+Then Menu Item with name "Cucumber Sandwich" should be added................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Management" name="Add another menu item" time="0.000403">
+        <system-out><![CDATA[Given I have a menu item with name "Chicken Sandwich" and price 15..........passed
+When I add that menu item...................................................passed
+Then Menu Item with name "Chicken Sandwich" should be added.................passed
+Given I have a menu item with name "Cucumber Salad" and price 15............passed
+When I add that menu item...................................................passed
+Then Menu Item with name "Cucumber Salad" should be added...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Management" name="Add third menu item" time="0.001631">
+        <system-out><![CDATA[Given I have a menu item with name "Chicken Sandwich" and price 15..........passed
+When I add that menu item...................................................passed
+Then Menu Item with name "Chicken Sandwich" should be added.................passed
+Given I have a menu item with name "Chicken Sandwich" and price 15..........passed
+When I add that menu item...................................................passed
+Then I should see an error message with value "Duplicate Item"..............passed
+]]></system-out>
+    </testcase>
+</testsuite>
